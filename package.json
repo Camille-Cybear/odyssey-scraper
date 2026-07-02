@@ -1,0 +1,14 @@
+{
+  "name": "odyssey-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "login": "node scripts/1-capture-session.mjs",
+    "discover": "node scripts/2-discover-links.mjs",
+    "scrape": "node scripts/3-scrape-content.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "turndown": "^7.2.0"
+  }
+}
